@@ -1,0 +1,71 @@
+.topic {
+  width: 35px;
+  height: 30px;
+}
+.block-left {
+  margin-right: 80px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 38px;
+  color: #696969;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: grey;
+}
+
+.button {
+  height: 40px;
+  width: 150px;
+  color: red;
+  border: 2px solid red;
+  background: white;
+}
+
+.plb {
+  margin-bottom: 40px;
+}
+
+.topic {
+  margin-top: 40px;
+}
+
+.block-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block-left,
+.block-right {
+  width: 50%;
+  margin-top: 40px;
+}
+
+.item {
+  width: 50%;
+}
+
+.wrapper {
+  border-bottom: 2px solid #d2d0ce;
+  padding: 20px 0 50px;
+  width: var(--content-width);
+  margin: 0 auto;
+  display: flex;
+}
+
+.btn-2 {
+  color: #fc3b32;
+  border: 2px solid #fc3b32;
+  background: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 0;
+  display: inline-block;
+  border-radius: 5px;
+  font-family: sans-serif;
+  width: 175px;
+  text-align: center;
+}
